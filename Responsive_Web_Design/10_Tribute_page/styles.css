@@ -1,15 +1,22 @@
 body {
     font-family: sans-serif;
     padding: 20px;
-    background-color: #e7f2f8;
+    background-color: #092038;
+    color: #e7f2f8;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 2em;
+    text-align: center;
   }
   
   .oval-container {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    background-color: #e7f2f8;
-    /* height: 100vh; */
   }
   
   .oval-image {
@@ -39,4 +46,20 @@ body {
   
   p {
     text-align: center;
+    font-size: 1.5em;
+  }
+
+  .tribute-info {
+    max-width: 800px;
+    margin: 50px auto 20px auto;
+  }
+
+  .img-caption {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  a {
+    color: #e7f2f8;
+    text-decoration: none;
   }
