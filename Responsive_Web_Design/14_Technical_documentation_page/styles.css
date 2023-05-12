@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 /* navbar styles */
 .navbar {
   background-color: #333;
@@ -6,6 +10,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  width: 100%;
 }
 
 .logo {
@@ -15,6 +21,7 @@
 
 .navbar-right {
   display: flex;
+  padding-right: 25px;
 }
 
 .pistol-buttons {
@@ -46,13 +53,19 @@ body {
     color: black;
 }
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin-top: 50px; */
+}
 /* Section styles */
 .firearm-section {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
   margin-top: 50px;
-  border-bottom: 3px solid 
+  border-bottom: 3px solid;
 }
 
 .firearm-image {
@@ -90,4 +103,12 @@ table td {
 
 table tr:first-child td {
   font-weight: bold;
+}
+
+.firearm-cards {
+  max-width: 1000px;
+}
+
+.beretta-92fs {
+  margin-top: 80px;
 }
