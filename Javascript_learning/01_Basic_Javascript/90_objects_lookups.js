@@ -3,7 +3,7 @@ function phoneticLookup(val) {
     let result = "";
   
     // Only change code below this line
-    const lookup = {
+    const myPhonetics = {
       "alpha": "Adams",
       "bravo": "Boston",
       "charlie": "Chicago",
@@ -12,7 +12,7 @@ function phoneticLookup(val) {
       "foxtrot": "Frank"
     };
   
-    result = lookup[val];
+    result = myPhonetics[val];
   
     // Only change code above this line
     return result;
